@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap'); /* A sci-fi style font */
+
+.space-text-intro {
+    font-family: 'Orbitron', sans-serif; /* Futuristic font for space vibe */
+    font-size: 3rem; /* Adjust size as needed */
+    color: #7FDBFF; /* Electric blue or any cosmic color */
+    background: linear-gradient(0deg, #ecb8a8); /* Gradient for galaxy colors */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.space-text-subHead {
+    font-family: 'Orbitron', sans-serif; /* Futuristic font for space vibe */
+    font-size: 3rem; /* Adjust size as needed */
+    color: #7FDBFF; /* Electric blue or any cosmic color */
+    background: linear-gradient(0deg, #F2F2F2); /* Gradient for galaxy colors */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+body{
+    position: relative;
+    color: aliceblue;
+    background-color: #000; 
+    background-image: url('./bg_2.jpg');  
+    background-size: 100% auto; 
+    /* background-attachment: fixed;  */
+    background-repeat: no-repeat;
+    /* height: 1000px; */
+    text-align: center;
+}
+
+body::before{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 1;
+}
+
+
+.coverup{
+    display: flex;
+    flex-direction: column;
+}
+
+.c1,.c2,.c3{
+    text-align: center;
+    margin-top: 300px;
+    height: 1000px;
+}
+
+nav{
+    height: 75px;
+    /* background-color: #040117; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav img{
+    position: relative;
+    top:100px;
+    left: 50px;
+    width: 400px;
+}
+
+#subHead> h1{
+    position: relative;
+    top: 300px;
+    font-size: 75px;
+    text-align: left;
+    left: 75px;
+    font-weight: bolder;
+}
+
+#subHead > p{
+    font-size: 30px;
+    position: relative;
+    text-align: left;
+    top: 400px;
+    left: 85px;
+}
+
+.introduction{
+    position: relative;
+    top: 675px;
+    font-size: 21px;
+    text-align: justify;
+    display: inline-flex;
+    width: 1200px;
+    backdrop-filter: blur(10px);
+    border-radius: 15% ;
+    padding: 100px;
+}
+
+.links{
+    position: relative;
+    left: 225px;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+nav a{
+    text-align: left;
+    margin-left: 50px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover{
+    color: #5f5699;
+}
+
+nav a:visited{
+    color: #007ACC;
+}
+
+.article_section{
+    position: relative;
+    top: 600px;
+    backdrop-filter: blur(10px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 200px;
+    row-gap: 200px;
+    padding: 120px;
+}
+
+.text{
+    background-color: aliceblue;
+    color: black;
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+footer div{
+    background-color: #000;
+    position: relative;
+    top: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -30px;
+
+}
+
+footer h5{
+ font-size: 12px;
+}
+
+footer a{
+    text-align: left;
+    margin-left: 50px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer a:hover{
+    color: #5f5699;
+}
